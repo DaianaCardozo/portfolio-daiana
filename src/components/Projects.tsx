@@ -15,7 +15,7 @@ const projects: Project[] = [
     stack: ['HTML', 'CSS', 'JavaScript'],
     category: 'Web Experience',
     demoUrl: 'https://daianacardozo.github.io/PuntoCine/',
-    codeUrl: '#',
+    codeUrl: 'https://github.com/DaianaCardozo/PuntoCine',
   },
   {
     title: 'Drink Company',
