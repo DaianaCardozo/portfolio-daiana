@@ -23,8 +23,8 @@ const projects: Project[] = [
       'Landing page para una escuela de coctelería, con diseño premium, estructura orientada a conversión y secciones pensadas para mostrar cursos y propuesta de valor.',
     stack: ['React', 'TypeScript', 'Tailwind CSS'],
     category: 'Conversion Landing',
-    demoUrl: '#',
-    codeUrl: '#',
+    demoUrl: 'https://drink-company.vercel.app/',
+    codeUrl: 'https://github.com/DaianaCardozo/Drink-Company',
   },
   {
     title: 'Portfolio personal',
