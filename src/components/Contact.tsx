@@ -52,9 +52,7 @@ function Contact() {
           </h2>
           <p className="max-w-2xl text-sm leading-relaxed text-slate-300 md:text-base">
             Si tenés una propuesta laboral, una colaboración o un proyecto
-            digital, podemos conversar. Me interesa participar en proyectos
-            donde pueda integrar interfaz, lógica, datos y experiencia de
-            usuario en soluciones claras y funcionales.
+            digital, podemos conversar.
           </p>
         </div>
 

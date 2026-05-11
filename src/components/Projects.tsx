@@ -14,7 +14,7 @@ const projects: Project[] = [
       'Plataforma web inspirada en una experiencia de cine, con cartelera, selección de asientos y una propuesta visual enfocada en la interacción del usuario.',
     stack: ['HTML', 'CSS', 'JavaScript'],
     category: 'Web Experience',
-    demoUrl: '#',
+    demoUrl: 'https://daianacardozo.github.io/PuntoCine/',
     codeUrl: '#',
   },
   {

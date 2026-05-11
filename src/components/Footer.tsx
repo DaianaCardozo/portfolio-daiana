@@ -18,7 +18,7 @@
           LinkedIn
         </a>
         <a
-          href="https://github.com/daiana-cardozo"
+          href="https://github.com/DaianaCardozo"
           target="_blank"
           rel="noreferrer"
           className="transition hover:text-violet-300"
