@@ -91,12 +91,16 @@ function Projects() {
               <div className="mt-6 flex gap-2">
                 <a
                   href={project.demoUrl}
+                  target="_blank"
+                  rel="noreferrer"
                   className="inline-flex flex-1 items-center justify-center rounded-lg bg-violet-500 px-3 py-2 text-sm font-semibold text-white transition hover:bg-violet-400"
                 >
                   Demo
                 </a>
                 <a
                   href={project.codeUrl}
+                  target="_blank"
+                  rel="noreferrer"
                   className="inline-flex flex-1 items-center justify-center rounded-lg border border-white/20 px-3 py-2 text-sm font-semibold text-slate-100 transition hover:border-violet-300/45 hover:bg-violet-400/10"
                 >
                   Código

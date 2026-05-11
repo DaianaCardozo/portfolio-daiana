@@ -11,6 +11,8 @@ const navItems: NavItem[] = [
   { label: 'Contacto', href: '#contacto' },
 ]
 
+const cvUrl = `${import.meta.env.BASE_URL}cv-daiana-cardozo.pdf`
+
 function Header() {
   return (
     <header className="w-full -mt-8 pt-0 md:-mt-10">
@@ -50,7 +52,7 @@ function Header() {
         </nav>
 
         <a
-          href="/cv-daiana-cardozo.pdf"
+          href={cvUrl}
           download
           className="inline-flex h-10 items-center whitespace-nowrap rounded-md border border-violet-300/45 bg-white/5 px-5 text-base font-semibold leading-none tracking-[0.02em] text-violet-200 shadow-sm shadow-violet-950/40 transition-colors hover:bg-violet-500/12 hover:text-violet-100"
         >

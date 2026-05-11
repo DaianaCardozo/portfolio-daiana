@@ -6,6 +6,8 @@
   download?: boolean
 }
 
+const cvUrl = `${import.meta.env.BASE_URL}cv-daiana-cardozo.pdf`
+
 const contactLinks: ContactLink[] = [
   {
     label: 'Email',
@@ -25,7 +27,7 @@ const contactLinks: ContactLink[] = [
   },
   {
     label: 'Descargar CV',
-    href: '/cv-daiana-cardozo.pdf',
+    href: cvUrl,
     note: 'Versión PDF',
     download: true,
   },
