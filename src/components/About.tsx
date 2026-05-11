@@ -4,7 +4,7 @@
   'JavaScript',
   'Tailwind CSS',
   'Git',
-  'Accesibilidad',
+  'JAVA',
 ]
 
 const focusAreas = [
