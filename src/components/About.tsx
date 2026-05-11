@@ -3,17 +3,15 @@
   'TypeScript',
   'JavaScript',
   'Tailwind CSS',
-  'Node.js',
-  'Figma',
   'Git',
   'Accesibilidad',
 ]
 
 const focusAreas = [
-  'Diseño visual con intención',
-  'Experiencia de usuario orientada a objetivos',
-  'Interfaces claras y funcionales',
-  'Comportamiento humano aplicado a productos digitales',
+  'Construcción de aplicaciones web completas.',
+  'Frontend y backend integrados con criterio.',
+  'Código claro, ordenado y escalable.',
+  'Soluciones pensadas para usuarios reales.',
 ]
 
 function About() {
@@ -24,22 +22,17 @@ function About() {
           Perfil Profesional
         </p>
         <h2 className="text-2xl font-semibold text-white md:text-3xl">
-          Frontend developer enfocada en producto y experiencia
+          Junior Full Stack developer.
         </h2>
       </div>
 
       <div className="grid gap-5 lg:grid-cols-[1.15fr_0.85fr]">
         <div className="space-y-4">
           <p className="max-w-3xl text-slate-300">
-            Desarrollo interfaces modernas que combinan claridad visual, buen
-            rendimiento y una estructura pensada para usuarios reales. Me
-            interesa construir productos digitales que sean intuitivos, sólidos y
-            fáciles de usar.
-          </p>
-          <p className="max-w-3xl text-slate-400">
-            Mi formación en psicología complementa mi perfil técnico: me ayuda a
-            analizar cómo las personas perciben, deciden e interactúan dentro de
-            una interfaz, para diseñar experiencias más efectivas y humanas.
+
+            Desarrolladora Full Stack Junior con formación en frontend, backend y bases de datos. Me interesa construir aplicaciones web claras, funcionales y bien estructuradas, cuidando tanto la experiencia del usuario como la lógica interna del sistema.
+
+            Mi formación en psicología complementa mi perfil técnico al aportar una mirada centrada en el usuario, la comunicación y la forma en que las personas interactúan con productos digitales.
           </p>
         </div>
 

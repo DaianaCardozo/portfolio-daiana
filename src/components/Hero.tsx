@@ -9,22 +9,23 @@ function Hero() {
       />
 
       <div className="relative mx-auto grid w-full max-w-6xl items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,22rem)] lg:gap-10 xl:gap-12">
-        <div className="max-w-2xl space-y-2 text-left lg:justify-self-start">
-          <p className="text-xs font-medium tracking-wide text-violet-300 md:text-sm">
+        <div className="max-w-2xl space-y-2 text-left md:-translate-y-3 lg:-translate-y-6 lg:justify-self-start">
+          <p className="text-base font-semibold tracking-normal text-violet-300 md:text-lg">
             Hola, soy
           </p>
 
-          <h1 className="text-4xl font-black leading-tight tracking-tight text-white md:whitespace-nowrap md:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-black leading-tight tracking-normal text-white md:whitespace-nowrap md:text-5xl lg:text-[3.35rem]">
             DAIANA CARDOZO
           </h1>
 
-          <p className="text-base font-semibold text-white md:text-lg">
-            Frontend Developer
+          <p className="text-lg font-semibold text-white md:text-xl">
+            Full Stack Developer Junior
           </p>
 
-          <p className="max-w-sm text-sm leading-relaxed text-slate-300 md:text-base">
-            Construyo interfaces modernas, funcionales y pensadas para usuarios
-            reales.
+          <p className="max-w-md text-base leading-relaxed text-slate-300 md:text-lg">
+            Desarrollo aplicaciones web completas, integrando frontend, backend
+            y bases de datos para crear soluciones claras, funcionales y fáciles
+            de usar.
           </p>
 
           <div className="flex flex-wrap gap-2 pt-0.5">

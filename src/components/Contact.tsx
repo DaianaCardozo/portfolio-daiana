@@ -9,19 +9,19 @@
 const contactLinks: ContactLink[] = [
   {
     label: 'Email',
-    href: 'mailto:hola@daiana.dev',
-    note: 'hola@daiana.dev',
+    href: 'mailto:daianacardozo.dev@gmail.com',
+    note: 'daianacardozo.dev@gmail.com',
     featured: true,
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/daiana-cardozo',
-    note: 'Perfil profesional',
+    href: 'https://www.linkedin.com/in/daiana-cardozo-854001287',
+    note: 'www.linkedin.com/in/daiana-cardozo-854001287',
   },
   {
     label: 'GitHub',
-    href: 'https://github.com/daiana-cardozo',
-    note: 'Proyectos y código',
+    href: 'https://github.com/DaianaCardozo',
+    note: 'https://github.com/DaianaCardozo',
   },
   {
     label: 'Descargar CV',
@@ -48,12 +48,13 @@ function Contact() {
             Contacto profesional
           </p>
           <h2 className="text-3xl font-semibold leading-tight text-white md:text-4xl">
-            Disponible para oportunidades frontend
+            Disponible para oportunidades Full Stack
           </h2>
           <p className="max-w-2xl text-sm leading-relaxed text-slate-300 md:text-base">
             Si tenés una propuesta laboral, una colaboración o un proyecto
-            digital, podemos conversar. Priorizo desafíos donde diseño, producto
-            y frontend trabajen en conjunto.
+            digital, podemos conversar. Me interesa participar en proyectos
+            donde pueda integrar interfaz, lógica, datos y experiencia de
+            usuario en soluciones claras y funcionales.
           </p>
         </div>
 

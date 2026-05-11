@@ -29,7 +29,7 @@ const projects: Project[] = [
   {
     title: 'Portfolio personal',
     description:
-      'Sitio personal para presentar proyectos, perfil profesional y contacto, con una estética dark moderna y enfoque en empleabilidad frontend.',
+      'Sitio personal para presentar mi perfil como Full Stack Developer Junior, mis proyectos y formas de contacto, con una estética dark moderna y una estructura clara y funcional.',
     stack: ['React', 'TypeScript', 'Tailwind CSS'],
     category: 'Personal Brand',
     demoUrl: '#',
@@ -42,16 +42,10 @@ function Projects() {
     <section id="proyectos" className="space-y-7">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <p className="text-xs font-medium uppercase tracking-[0.18em] text-violet-300/90">
-            Trabajo Seleccionado
-          </p>
-          <h2 className="mt-2 text-2xl font-semibold text-white md:text-3xl">
-            Proyectos reales
+          <h2 className="text-2xl font-semibold text-white md:text-3xl">
+            PROYECTOS
           </h2>
         </div>
-        <p className="max-w-sm text-sm leading-relaxed text-slate-400">
-          Casos enfocados en producto, experiencia visual y objetivos concretos.
-        </p>
       </div>
 
       <div className="grid gap-5 md:grid-cols-3">
