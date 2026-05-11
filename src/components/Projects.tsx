@@ -13,7 +13,7 @@ const projects: Project[] = [
     description:
       'Plataforma web inspirada en una experiencia de cine, con cartelera, selección de asientos y una propuesta visual enfocada en la interacción del usuario.',
     stack: ['HTML', 'CSS', 'JavaScript'],
-    category: 'Web Experience',
+    category: 'Interfaz de Cine',
     demoUrl: 'https://daianacardozo.github.io/PuntoCine/',
     codeUrl: 'https://github.com/DaianaCardozo/PuntoCine',
   },
@@ -22,7 +22,7 @@ const projects: Project[] = [
     description:
       'Landing page para una escuela de coctelería, con diseño premium, estructura orientada a conversión y secciones pensadas para mostrar cursos y propuesta de valor.',
     stack: ['React', 'TypeScript', 'Tailwind CSS'],
-    category: 'Conversion Landing',
+    category: 'Plataforma de Cursos',
     demoUrl: 'https://drink-company.vercel.app/',
     codeUrl: 'https://github.com/DaianaCardozo/Drink-Company',
   },
@@ -31,9 +31,9 @@ const projects: Project[] = [
     description:
       'Sitio personal para presentar mi perfil como Full Stack Developer Junior, mis proyectos y formas de contacto, con una estética dark moderna y una estructura clara y funcional.',
     stack: ['React', 'TypeScript', 'Tailwind CSS'],
-    category: 'Personal Brand',
+    category: 'CV Web',
     demoUrl: '#',
-    codeUrl: '#',
+    codeUrl: 'https://github.com/DaianaCardozo/portfolio-daiana',
   },
 ]
 
