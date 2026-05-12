@@ -16,7 +16,7 @@ const cvUrl = `${import.meta.env.BASE_URL}cv-daiana-cardozo.pdf`
 function Header() {
   return (
     <header className="w-full -mt-8 pt-0 md:-mt-10">
-      <div className="relative flex items-center justify-between gap-4 py-1.5 md:py-2">
+      <div className="relative flex flex-wrap items-center justify-between gap-x-4 gap-y-3 py-2 md:flex-nowrap">
         <a
           href="#inicio"
           className="text-lg font-semibold tracking-[0.2em] text-white transition-colors hover:text-violet-200"
@@ -25,8 +25,8 @@ function Header() {
           DC
         </a>
 
-        <nav className="pointer-events-auto absolute left-1/2 top-1/2 w-[min(42rem,calc(100%-11rem))] -translate-x-1/2 -translate-y-1/2 sm:w-[min(42rem,calc(100%-15rem))]">
-          <ul className="flex items-center justify-center gap-5 overflow-x-auto pb-1 text-sm [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <nav className="order-3 w-full md:pointer-events-auto md:absolute md:left-1/2 md:top-1/2 md:order-none md:w-[min(42rem,calc(100%-15rem))] md:-translate-x-1/2 md:-translate-y-1/2">
+          <ul className="flex items-center justify-start gap-4 overflow-x-auto pb-1 text-sm [scrollbar-width:none] md:justify-center md:gap-5 [&::-webkit-scrollbar]:hidden">
             {navItems.map((item) => {
               const isActive = item.label === 'Inicio'
 
